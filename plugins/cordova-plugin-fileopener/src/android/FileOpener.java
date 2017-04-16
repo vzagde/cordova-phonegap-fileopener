@@ -61,6 +61,10 @@ public class FileOpener extends CordovaPlugin {
         MIME_TYPES.put(".odt", "application/vnd.oasis.opendocument.text");
         MIME_TYPES.put(".ppt", "application/vnd.ms-powerpoint");
         MIME_TYPES.put(".pptx", "application/vnd.openxmlformats-officedocument.presentationml.presentation");
+
+        MIME_TYPES.put(".pps", "application/vnd.ms-powerpoint");
+        MIME_TYPES.put(".ppsx", "application/vnd.openxmlformats-officedocument.presentationml.presentation");
+
         MIME_TYPES.put(".apk", "application/vnd.android.package-archive");
         MIME_TYPES.put(".swf", "application/x-shockwave-flash");
         MIME_TYPES.put(".zip", "application/zip");
