@@ -34,6 +34,20 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        console.log("Device Ready Triggered");
+        cordova.plugins.fileOpener2.open(
+            'mahindra.ppsx',
+            'application/vapplication/vnd.openxmlformats-officedocument.presentationml.presentation', 
+            { 
+                error : function(e) { 
+                    console.log(e);
+                    console.log('Error status: ' + e.status + ' - Error message: ' + e.message);
+                },
+                success : function () {
+                    console.log('file opened successfully');                
+                }
+            }
+        );
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
