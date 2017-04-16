@@ -29,7 +29,9 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
-    <plugin name="cordova-plugin-fileopener" spec="~1.0.5"/>
+
+    <!-- <plugin name="cordova-plugin-fileopener" spec="~1.0.5"/> -->
+
     <!-- file work on phonegap serve -->
     <plugin spec="https://github.com/apache/cordova-plugin-file.git#rel/4.3.2" source="git"/>
     <!-- file work on phonegap serve -->
